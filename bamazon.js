@@ -46,7 +46,6 @@ function welcome() {
             }
 
             if (chosenWare.stock_quantity >= parseInt(answer.amount)) {
-                console.log(chosenWare.stock_quantity)
                 connection.query(                    
                     "UPDATE products SET ? WHERE ?",
                     [
@@ -60,7 +59,6 @@ function welcome() {
                     function(error) {                        
                         if (error) throw err;
                         // process to sum total
-                        console.log(chosenWare.stock_quantity);
                         console.log(`Your total is $${answer.amount * chosenWare.price}`);
                         console.log("Thank you for your purchase! Take at look at our other wares");
                         welcome();
