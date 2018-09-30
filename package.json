@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Allows users to purchase a given amount of a product from the store's wares.",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoffreyHanson/Bamazon.git"
+  },
+  "keywords": [
+    "bamazon"
+  ],
+  "author": "Geoffrey Hanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeoffreyHanson/Bamazon/issues"
+  },
+  "homepage": "https://github.com/GeoffreyHanson/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "mysql": "^2.16.0"
+  }
+}
